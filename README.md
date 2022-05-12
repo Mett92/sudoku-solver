@@ -1,8 +1,8 @@
 # Sudoku Solver
 The program attempts to solve a sudoku, with less than 17 clues, counting the solutions in order to return the result. It works in parallel. <br>
 A puzzle with less than 17 clues can have more than 1 solution, even milions.
-The comment in the code are in Italian because the project was for the Italian Bachelor.
-The code is in the psmcProject folder.
+
+The comment in the code are in Italian because the project was for the Italian Bachelor. The code is in the psmcProject folder.
 
 ## Algorithmic Approach
 The program take in input the text file representing the sudoku 9x9 table and it creates a sudoku instance, next the all possible legal values for each row, column, region (the square with 9 cells of sudoku) and every single block are calculated, note that is equal to write in each cell (block in the code) with the pencil the possible solution during a sudoku match on a sheet of paper.<br>
